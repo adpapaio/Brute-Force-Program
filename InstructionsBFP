@@ -1,0 +1,32 @@
+ Purpose: Brute Force, vectors, next permutation
+
+SEND + MORE = MONEY
+
+Description:
+In this program you will write a program to solve puzzles like the one above. In the above puzzle 
+you are to change the letters into digits chosen from {0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, such that 
+all the same letters represent the same number which makes the above equation correct. Your
+program should be able to handle any three word puzzle with the operations addition, subtraction,
+division, multiplication and exponentiation.
+
+Input:
+The input will come entirely from the keyboard (stdin) and will consist of typing a puzzle. A 
+puzzle will be on a single line containing a three strings (in capital letters). The first two 
+strings will be separated by an operator (+, - , *) and the last two strings will be separated 
+by a = sign. There will be a space between each string and symbol.
+
+Output:
+There should be one line of output. The output will be the equation repeated with digits 
+replacing the letters. Leading zeros should not need to be printed. If more than one solution 
+is possible then list the one, where the first word has the lowest value. If not solution is
+possible write no solution
+
+Sample Input
+
+TO + GET = HER
+CAT * CAN = NATION
+
+Corresponding Sample Output
+
+91 + 249 = 340
+no solution
