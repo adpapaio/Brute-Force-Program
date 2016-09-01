@@ -1,0 +1,19 @@
+# Brute-Force-Program
+CIS 350 - Send + More = Money
+
+Programming Language used: C++ in Microsoft Visual Studio 2013 How to use the program:  
+1. After starting the program, user will be prompted to type in the input (in Capital Letters) 
+2. Type the desired valid input 
+    - Valid input must have  
+    - all Uppercase characters  
+    - an operator (+, -, *)  
+    - an equal sign (=)   
+    - a space between each word  
+    - no digits  
+    - in this format ( word1 operator word2 equals word3)  
+    -example of valid input: SEND + MORE = MONEY 
+3. After the valid input is typed in, hit the Enter key and wait for the solution to appear. 
+(Solutions will be found at different speeds based on computer processing power)
+    - Solution will be shown underneath the input line.  
+    - Example of found solution: Found Solution: 1234 + 4321 = 5555  
+    - Example of no solution: No Solution was found!
